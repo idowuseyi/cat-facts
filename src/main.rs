@@ -68,6 +68,7 @@ async fn main() -> std::io::Result<()> {
     HttpServer::new(|| 
         App::new()
             .route("/me", web::get().to(cat_fact_handler))
+            .route("/", web::get().to(|| async { "Hello Rust/Actix server responding!" }))
     )
     .bind("127.0.0.1:8080")?
     .run()
