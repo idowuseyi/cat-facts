@@ -156,6 +156,13 @@ cat-facts-api/
 └── README.md           # Project documentation
 ```
 
+## Deployment
+
+You can deploy this application to any Rust-compatible hosting service.
+
+You can check out the deployed version with the link below
+[Deployed Cat Facts API](https://cat-facts-mkre.shuttle.app/me)
+
 ## 📄 License
 
 This project is open-source under the MIT License.
